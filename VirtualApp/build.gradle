@@ -34,3 +34,13 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+HOOK_DEF(int, statfs, __const char *__file, struct statfs *__buf) {
+    char temp[PATH_MAX];
+    const char *relocated_path = relocate_path(__file, temp, sizeof(temp));
+    if (__predict_true(relocated_path)) {
+        return static_cast<int>(syscall(__NR_statfs, relocated_path, __buf));
+    }
+    errno = EACCES;
+    return -1;
+}
+
