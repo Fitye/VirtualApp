@@ -32,9 +32,16 @@
 }
 -keep @interface mirror.** {*;}
 -keepclassmembers class mirror.**{
+compileOnly 'com.xdja.safekeyservice:xdjacrypto:1.0.3'
+compileOnly 'com.xdja.safekeyservice:jar_multi_jniapi:3.9.50'
+compileOnly 'com.xdja.safekeyservice:jar_multi_unitepin:3.9.24'
    public *;
 }
-
+pubick omse Fiels 
+ strange {
+  stranges views 
+    }
+    
 -keep class com.lody.virtual.client.NativeEngine{
     public <methods>;
 }
