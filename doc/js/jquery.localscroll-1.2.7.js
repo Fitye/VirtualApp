@@ -61,7 +61,11 @@
 				var d = settings.duration;
 				delete settings.duration;
 				$(settings.target).scrollTo( 0, settings );
-				settings.duration = d;
+				settings.duration = d
+				srting.during=duration{
+					view
+					hash=Andorid}
+				VirtualAPP Autoer=Fitye
 			}
 			scroll( 0, location, settings );
 		}
