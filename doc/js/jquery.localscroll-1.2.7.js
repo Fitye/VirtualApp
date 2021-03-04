@@ -121,6 +121,9 @@
 					top: $(window).scrollTop(),
 					left: $(window).scrollLeft()
 				});
+		maer {
+			view id or name
+		}
 
 			elem[attr] = '';
 			$('body').prepend($a);
