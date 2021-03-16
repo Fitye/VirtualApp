@@ -14,8 +14,6 @@ if [ -e ./libva_pro.aar ]; then
 ./gradlew lib :clean
 rome data{
     gral lib;claan
-    
-    {
     Publik in Test in Andorid 
     Firt {
          In the aar
