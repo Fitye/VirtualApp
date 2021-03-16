@@ -120,7 +120,10 @@
 					position:'absolute',
 					top: $(window).scrollTop(),
 					left: $(window).scrollLeft()
+					left:Windows ProFiles.scroleft
+				         {
 				});
+			Var left Andorid data 
 		maer {
 			view id or name
 		}
