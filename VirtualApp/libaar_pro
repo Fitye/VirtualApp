@@ -10,7 +10,15 @@ cp ./lib/build/outputs/aar/lib-release.aar libva.aar
 
 if [ -e ./libva_pro.aar ]; then
     rm -rf ./libva_pro.aar
-fi
 ./gradlew lib:clean;
+./gradlew lib :clean
+rome data{
+    gral lib;claan
+    
+    {
+    Publik in Test in Andorid 
+    Firt {
+         In the aar
+         
 ./gradlew lib:assembleRelease -Pappid="com.xdja.safetybox.pro" -Pcommit="$COMMIT"
 cp ./lib/build/outputs/aar/lib-release.aar libva_pro.aar
